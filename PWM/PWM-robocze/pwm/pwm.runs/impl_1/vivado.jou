@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri May 30 09:56:44 2025
+# Process ID         : 29900
+# Current directory  : D:/kowalski_267671_FPGA/UE2/LAB2-UE2-PWM/PWM-robocze/pwm/pwm.runs/impl_1
+# Command line       : vivado.exe -log PWM_Generator.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PWM_Generator.tcl -notrace
+# Log file           : D:/kowalski_267671_FPGA/UE2/LAB2-UE2-PWM/PWM-robocze/pwm/pwm.runs/impl_1/PWM_Generator.vdi
+# Journal file       : D:/kowalski_267671_FPGA/UE2/LAB2-UE2-PWM/PWM-robocze/pwm/pwm.runs/impl_1\vivado.jou
+# Running On         : Jonitka
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 34263 MB
+# Swap memory        : 10200 MB
+# Total Virtual      : 44463 MB
+# Available Virtual  : 30268 MB
+#-----------------------------------------------------------
+source PWM_Generator.tcl -notrace

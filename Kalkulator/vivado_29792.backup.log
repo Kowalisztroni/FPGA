@@ -1,0 +1,340 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri May 23 16:18:50 2025
+# Process ID         : 29792
+# Current directory  : D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent28032 D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.xpr
+# Log file           : D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/vivado.log
+# Journal file       : D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator\vivado.jou
+# Running On         : Jonitka
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 34263 MB
+# Swap memory        : 8053 MB
+# Total Virtual      : 42316 MB
+# Available Virtual  : 22177 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.xpr
+INFO: [Project 1-313] Project file moved from 'D:/kowalski_267671_FPGA/UE2/Zad3-Kalkulator - Zapis i odczyt plikw/Kalkulator' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_jednostka_arytmetyczna'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_jednostka_arytmetyczna' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_jednostka_arytmetyczna_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/jednostka_arytmetyczna.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'jednostka_arytmetyczna'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_jednostka_arytmetyczna'
+ERROR: [VRFC 10-488] character with value 0x84 is not a graphic literal character [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:127]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:42]
+INFO: [VRFC 10-8704] VHDL file 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_jednostka_arytmetyczna'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_jednostka_arytmetyczna' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_jednostka_arytmetyczna_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/jednostka_arytmetyczna.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'jednostka_arytmetyczna'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_jednostka_arytmetyczna'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_jednostka_arytmetyczna_behav xil_defaultlib.tb_jednostka_arytmetyczna -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_jednostka_arytmetyczna_behav xil_defaultlib.tb_jednostka_arytmetyczna -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.jednostka_arytmetyczna [jednostka_arytmetyczna_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_jednostka_arytmetyczna
+Built simulation snapshot tb_jednostka_arytmetyczna_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_jednostka_arytmetyczna_behav -key {Behavioral:sim_1:Functional:tb_jednostka_arytmetyczna} -tclbatch {tb_jednostka_arytmetyczna.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Warning: File dane_wejsciowe.txt could not be opened
+on HDL file D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd line 83
+Time resolution is 1 ps
+source tb_jednostka_arytmetyczna.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ERROR: File dane_wejsciowe.txt is not open. Cannot call endfile on it
+Time: 0 ps  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc
+  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+
+HDL Line: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:94
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_jednostka_arytmetyczna_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1215.777 ; gain = 9.625
+run 25 ms
+ERROR: [Simulator 45-1] A fatal run-time error was detected.  Simulation cannot continue.
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_jednostka_arytmetyczna'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_jednostka_arytmetyczna' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_jednostka_arytmetyczna_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_jednostka_arytmetyczna'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_jednostka_arytmetyczna_behav xil_defaultlib.tb_jednostka_arytmetyczna -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_jednostka_arytmetyczna_behav xil_defaultlib.tb_jednostka_arytmetyczna -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.jednostka_arytmetyczna [jednostka_arytmetyczna_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_jednostka_arytmetyczna
+Built simulation snapshot tb_jednostka_arytmetyczna_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_jednostka_arytmetyczna_behav -key {Behavioral:sim_1:Functional:tb_jednostka_arytmetyczna} -tclbatch {tb_jednostka_arytmetyczna.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Warning: File dane_wejsciowe.txt could not be opened
+on HDL file D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd line 83
+Time resolution is 1 ps
+source tb_jednostka_arytmetyczna.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ERROR: File dane_wejsciowe.txt is not open. Cannot call endfile on it
+Time: 0 ps  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc
+  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+
+HDL Line: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:94
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_jednostka_arytmetyczna_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1227.477 ; gain = 8.668
+run 25 ms
+ERROR: [Simulator 45-1] A fatal run-time error was detected.  Simulation cannot continue.
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim/xsim.dir/xil_defaultlib/dane_wejsciowe.txt
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_jednostka_arytmetyczna'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_jednostka_arytmetyczna' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim/dane_wejsciowe.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_jednostka_arytmetyczna_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_jednostka_arytmetyczna_behav xil_defaultlib.tb_jednostka_arytmetyczna -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_jednostka_arytmetyczna_behav xil_defaultlib.tb_jednostka_arytmetyczna -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_jednostka_arytmetyczna_behav -key {Behavioral:sim_1:Functional:tb_jednostka_arytmetyczna} -tclbatch {tb_jednostka_arytmetyczna.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_jednostka_arytmetyczna.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: Operacja: 2 + 2 = 4
+Time: 10 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 5 * 8 = 40
+Time: 20 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 23 / 7 = 3
+Time: 30 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 22 - 37 = -15
+Time: 40 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_jednostka_arytmetyczna_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.477 ; gain = 0.000
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/wyniki.txt
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\kowalski_267671_FPGA\UE2\Zad3Kalkulator\Kalkulator\Kalkulator.srcs\sources_1\new\tb_jednostka_arytmetyczna.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_jednostka_arytmetyczna'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_jednostka_arytmetyczna' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim/dane_wejsciowe.txt'
+INFO: [SIM-utils-43] Exported 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim/wyniki.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_jednostka_arytmetyczna_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_jednostka_arytmetyczna_behav xil_defaultlib.tb_jednostka_arytmetyczna -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_jednostka_arytmetyczna_behav xil_defaultlib.tb_jednostka_arytmetyczna -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_jednostka_arytmetyczna_behav -key {Behavioral:sim_1:Functional:tb_jednostka_arytmetyczna} -tclbatch {tb_jednostka_arytmetyczna.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_jednostka_arytmetyczna.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: Operacja: 2 + 2 = 4
+Time: 10 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 5 * 8 = 40
+Time: 20 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 23 / 7 = 3
+Time: 30 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 22 - 37 = -15
+Time: 40 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_jednostka_arytmetyczna_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2272.883 ; gain = 0.000
+run 25 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 23 16:30:06 2025...

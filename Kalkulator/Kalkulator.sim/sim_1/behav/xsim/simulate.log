@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Note: Operacja: 2 + 2 = 4
+Time: 10 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 5 * 8 = 40
+Time: 20 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 23 / 7 = 3
+Time: 30 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 22 - 37 = -15
+Time: 40 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 5 / 0 = 0
+Time: 50 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd
+Note: Operacja: 2 + 3 = 5
+Time: 60 ns  Iteration: 0  Process: /tb_jednostka_arytmetyczna/stim_proc  File: D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd

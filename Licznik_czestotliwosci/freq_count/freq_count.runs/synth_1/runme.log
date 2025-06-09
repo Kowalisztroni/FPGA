@@ -1,0 +1,263 @@
+
+*** Running vivado
+    with args -log FrequencyCounter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FrequencyCounter.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Apr 11 09:35:35 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source FrequencyCounter.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/utils_1/imports/synth_1/FrequencyCounter.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/utils_1/imports/synth_1/FrequencyCounter.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top FrequencyCounter -part xc7a100ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100ti'
+WARNING: [Vivado_Tcl 4-1809] The reference checkpoint is from an old version of Vivado; A full resynthesis flow will be run
+INFO: [Device 21-403] Loading part xc7a100ticsg324-1L
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17696
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1012.043 ; gain = 468.492
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'FrequencyCounter' [C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/frequency_counter.vhd:15]
+INFO: [Synth 8-3491] module 'ClockDivider' declared at 'C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/clock_divider.vhd:4' bound to instance 'ClockDiv_Inst' of component 'ClockDivider' [C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/frequency_counter.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'ClockDivider' [C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/clock_divider.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'ClockDivider' (0#1) [C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/clock_divider.vhd:11]
+INFO: [Synth 8-3491] module 'DisplayClockDivider' declared at 'C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/display_clock_divider.vhd:4' bound to instance 'DispClk_Inst' of component 'DisplayClockDivider' [C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/frequency_counter.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'DisplayClockDivider' [C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/display_clock_divider.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'DisplayClockDivider' (0#1) [C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/display_clock_divider.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'FrequencyCounter' (0#1) [C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.srcs/sources_1/new/frequency_counter.vhd:15]
+WARNING: [Synth 8-7129] Port JB[2] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[3] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[4] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[5] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[6] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[7] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[8] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[9] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[10] in module FrequencyCounter is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1120.652 ; gain = 577.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1120.652 ; gain = 577.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1120.652 ; gain = 577.102
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1120.652 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/kowal/Downloads/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/kowal/Downloads/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/kowal/Downloads/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/FrequencyCounter_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/FrequencyCounter_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1221.910 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1221.910 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1221.910 ; gain = 678.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1221.910 ; gain = 678.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1221.910 ; gain = 678.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1221.910 ; gain = 678.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 9     
+	   2 Input   31 Bit       Adders := 8     
+	   2 Input    4 Bit       Adders := 8     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 7     
+	   2 Input   31 Bit        Muxes := 8     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port JB[2] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[3] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[4] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[5] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[6] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[7] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[8] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[9] in module FrequencyCounter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port JB[10] in module FrequencyCounter is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1312.523 ; gain = 768.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1325.609 ; gain = 782.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1349.312 ; gain = 805.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1397.906 ; gain = 854.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.367 ; gain = 1013.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1557.367 ; gain = 1013.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1557.367 ; gain = 1013.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1557.367 ; gain = 1013.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1557.367 ; gain = 1013.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1557.367 ; gain = 1013.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   841|
+|3     |LUT1   |    68|
+|4     |LUT2   |   331|
+|5     |LUT3   |   947|
+|6     |LUT4   |   921|
+|7     |LUT5   |  1241|
+|8     |LUT6   |  1837|
+|9     |MUXF7  |     1|
+|10    |FDRE   |   136|
+|11    |IBUF   |     2|
+|12    |OBUF   |    15|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1557.367 ; gain = 1013.816
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:41 . Memory (MB): peak = 1557.367 ; gain = 912.559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1557.367 ; gain = 1013.816
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1559.703 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 842 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'FrequencyCounter' is not ideal for floorplanning, since the cellview 'FrequencyCounter' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1563.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f6bef923
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:01:00 . Memory (MB): peak = 1563.266 ; gain = 1226.004
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1563.266 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/kowal/Desktop/kowalski_267671_FPGA/freq_count/freq_count.runs/synth_1/FrequencyCounter.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file FrequencyCounter_utilization_synth.rpt -pb FrequencyCounter_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 11 09:36:40 2025...

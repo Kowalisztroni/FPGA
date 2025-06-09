@@ -1,0 +1,123 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri May 30 10:22:02 2025
+# Process ID         : 25304
+# Current directory  : D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.runs/synth_1
+# Command line       : vivado.exe -log tb_jednostka_arytmetyczna.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_jednostka_arytmetyczna.tcl
+# Log file           : D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.runs/synth_1/tb_jednostka_arytmetyczna.vds
+# Journal file       : D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.runs/synth_1\vivado.jou
+# Running On         : Jonitka
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 34263 MB
+# Swap memory        : 10200 MB
+# Total Virtual      : 44463 MB
+# Available Virtual  : 29666 MB
+#-----------------------------------------------------------
+source tb_jednostka_arytmetyczna.tcl -notrace
+Command: synth_design -top tb_jednostka_arytmetyczna -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10036
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 847.062 ; gain = 479.910
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'tb_jednostka_arytmetyczna' [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:42]
+INFO: [Synth 8-3491] module 'jednostka_arytmetyczna' declared at 'D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/jednostka_arytmetyczna.vhd:34' bound to instance 'uut' of component 'jednostka_arytmetyczna' [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'jednostka_arytmetyczna' [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/jednostka_arytmetyczna.vhd:41]
+INFO: [Synth 8-226] default block is never used [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/jednostka_arytmetyczna.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'jednostka_arytmetyczna' (0#1) [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/jednostka_arytmetyczna.vhd:41]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:108]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:108]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:108]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:108]
+INFO: [Synth 8-256] done synthesizing module 'tb_jednostka_arytmetyczna' (0#1) [D:/kowalski_267671_FPGA/UE2/Zad3Kalkulator/Kalkulator/Kalkulator.srcs/sources_1/new/tb_jednostka_arytmetyczna.vhd:42]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 952.621 ; gain = 585.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 952.621 ; gain = 585.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 952.621 ; gain = 585.469
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 952.621 ; gain = 585.469
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   16 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 3     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design tb_jednostka_arytmetyczna has an empty top module
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1112.883 ; gain = 745.730
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1137.781 ; gain = 770.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1137.781 ; gain = 770.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
